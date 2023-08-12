@@ -1,11 +1,11 @@
-baseURL: "https://torgeiraamboe.github.io/"
-title: Writing what I'm learning
+baseURL: "https://emmanueljerez.github.io/"
+title: The travel of a mathematician into the quantum world
 paginate: 10
 theme: PaperMod
 copyright: " "
 publishDir: docs
 googleAnalytics: G-BNDEZXCLMF
-disqusShortname: torgeiraamboe
+disqusShortname: emmanuel
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -31,7 +31,7 @@ outputs:
 menu:
     main:
       - name: My homepage
-        url: "https://folk.ntnu.no/torgeaam/"
+        url: "https://ime.usp.br/~ejerez"
         weight: 5     
       - name: Categories
         url: categories/
@@ -55,7 +55,7 @@ menu:
 params:
     # env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: ""
-    author: Torgeir Aambø
+    author: Emmanuel Jerez
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
@@ -77,29 +77,29 @@ params:
 
     #profileMode:
     #      enabled: false
-    #      title: Torgeir Aambø
+    #      title: Emmanuel Jerez
     #      imageUrl: "0torgeir-1.png"
     #      imageTitle: my image
     #      imageWidth: 265
     #      imageHeight: 310
-    #      subtitle: "Master student in mathematics"
+    #      subtitle: "PhD student in mathematics"
 
     
     homeInfoParams:
-        Title: Hi!
+        Title: Oi!
         Content: >
             Welcome to my mathematics blog. 
-            On here I write my way through my mathematical endevours, mostly focusing on algebraic topology, but also other things that interests me.
+            Here I'm writte about my math interests.
 
     socialIcons:
-        - name: buymeacoffee
-          url: "https://www.buymeacoffee.com/aamboe"  
-        - name: LinkedIn
-          url: "https://www.linkedin.com/in/torgeir-aamb%C3%B8/"
+#        - name: buymeacoffee
+#          url: "https://www.buymeacoffee.com/aamboe"  
+#        - name: LinkedIn
+#          url: "https://www.linkedin.com/in/torgeir-aamb%C3%B8/"
         - name: Email
-          url: "mailto:torgeiraamboe@gmail.com"
+          url: "mailto:ejerez.math@gmail.com"
         - name: github
-          url: "https://github.com/torgeiraamboe"        
+          url: "https://github.com/emmanueljerez"        
 
 
     # label:
