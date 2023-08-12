@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Puppe sequence on Writing what I&#39;m learning</title>
+    <link>https://torgeiraamboe.github.io/tags/the-puppe-sequence/</link>
+    <description>Recent content in The Puppe sequence on Writing what I&#39;m learning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright> </copyright>
+    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://torgeiraamboe.github.io/tags/the-puppe-sequence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homotopy groups</title>
+      <link>https://torgeiraamboe.github.io/posts/homotopy-groups/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://torgeiraamboe.github.io/posts/homotopy-groups/</guid>
+      <description>This is part 3 of a series leading up to and exploring model categories. For the other parts see
+For an introduction to the material, the definitions, motivation and some examples, about fibrations and fiber bundles. This and the the following parts of this series will be about their usefulness, especially in computing homology and homotopy groups. This will be done through two different techniques, namely the long exact sequence of homotopy groups, and the spectral sequence associated to a fibration.</description>
+    </item>
+    
+  </channel>
+</rss>
