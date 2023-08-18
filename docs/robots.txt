@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: emmanueljerez.github.io/sitemap.xml
