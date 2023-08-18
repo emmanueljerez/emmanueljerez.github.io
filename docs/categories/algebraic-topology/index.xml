@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Algebraic topology on The travel of a mathematician</title>
+    <link>emmanueljerez.github.io/categories/algebraic-topology/</link>
+    <description>Recent content in Algebraic topology on The travel of a mathematician</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright> </copyright>
+    <lastBuildDate>Sat, 16 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="emmanueljerez.github.io/categories/algebraic-topology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deff</title>
+      <link>emmanueljerez.github.io/posts/2023/deff/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>emmanueljerez.github.io/posts/2023/deff/</guid>
+      <description>Este es un ejemplo de cita CITA. [ f(x)=3 ]
+Una definicion
+Definition (l.e.s): A long sequence of objects (in our case usually groups or pointed spaces)
+$$ \cdots \longrightarrow A_{n+1} \overset{d_{n+1}} \longrightarrow A_n \overset{d_n} \longrightarrow A_{n-1} \longrightarrow \cdots $$ is called exact at $A_n$ if $\text{Ker}(d_n)=\text{Im}(d_{n+1})$ . The sequence is called exact if it is exact for every $n.$
+Seccion 1 Algun texto
+Seccion 2 mas texto
+$$\cdots \rightarrow [\Sigma^n S^0, X] \rightarrow [\Sigma^n S^0, Y] \rightarrow [\Sigma^{n-1} S^0, hofib(p)] \rightarrow \cdots .</description>
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>emmanueljerez.github.io/posts/2023/citationexample/</link>
+      <pubDate>Sat, 16 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>emmanueljerez.github.io/posts/2023/citationexample/</guid>
+      <description>Example</description>
+    </item>
+    
+  </channel>
+</rss>
