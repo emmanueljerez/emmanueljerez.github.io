@@ -6,6 +6,16 @@
     <description>Recent content in Series on The travel of a mathematician</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright> </copyright><atom:link href="emmanueljerez.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <copyright> </copyright>
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="emmanueljerez.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The abstract Homotopy series</title>
+      <link>emmanueljerez.github.io/series/the-abstract-homotopy-series/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>emmanueljerez.github.io/series/the-abstract-homotopy-series/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
