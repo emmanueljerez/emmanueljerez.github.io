@@ -3,7 +3,7 @@ theme = "hugo-ficurinia"
 title = "The travel of a mathematician"
 languageCode = "en"
 defaultContentLanguage = "en"
-
+publishDir = "docs"
 # this will be included in the footer after the current year the site is last
 # built, followed by the (c) symbol
 # you can use markdown inside this field
