@@ -8,7 +8,6 @@ publishDir = "docs"
 # built, followed by the (c) symbol
 # you can use markdown inside this field
 copyright = ""
-
 paginate = 5  # number of articles per page in the index
 summaryLength = 70  # number of words for article summaries
 
@@ -16,11 +15,11 @@ summaryLength = 70  # number of words for article summaries
 [params]
     author = "Emmanuel Jerez"
     description = "This is my math blog"  # this will be added as metadata
-
     posts = "posts"  # content directory where to find home page posts; default searches in "posts" and "post"
     showPostsLink = true  # show or hide the link to the simple post list
     extraContentDirs = []  # other content directories to render similarly to the home page
     showcaseDir = "showcase"  # create a content directory that shows a special showcase section in the home page
+    katex = "true"
 
     # shows a specified single page as a home page, instead of the traditional articles list
     # requires setting `homeSinglePage`
@@ -41,13 +40,13 @@ summaryLength = 70  # number of words for article summaries
     showTags = true  # show the Tags menu item; default true
     showRss = false # show the link for the RSS feed; default true
 
-    imageInArticlePreview = false  # show images in article preview; default false
-    fitImageInArticlePreview = false  # make article preview images fit the article preview instead of getting cropped
+    imageInArticlePreview = true  # show images in article preview; default false
+    fitImageInArticlePreview = true  # make article preview images fit the article preview instead of getting cropped
     articleSummary = true  # show a summary in article preview; default true
     
-    fontFamily = "JetBrains Mono"  # changes the font, default "JetBrains Mono"
-    titleFontFamily = "JetBrains Mono"  # font used for titles and headings
-    monospaceFontFamily = "JetBrains Mono"  # changes the monospace font for code, default "JetBrains Mono"
+    fontFamily = "FiraCode Nerd Font"  # changes the font, default "JetBrains Mono"
+    titleFontFamily = "FiraCode Nerd Font"  # font used for titles and headings
+    monospaceFontFamily = "FiraCode Nerd Font"  # changes the monospace font for code, default "JetBrains Mono"
 
     # multipliers applied to font sizes, useful for custom fonts that may be too big or too small
     titleFontSizeMultiplier = 1.0
@@ -56,8 +55,8 @@ summaryLength = 70  # number of words for article summaries
 
     contentWidth = "1000px"  # maximum width of the site content, css syntax
 
-    paperCards = false  # enable paper card style; default false
-    buttonTags = false  # enable button tag style; default false
+    paperCards = true  # enable paper card style; default false
+    buttonTags = true  # enable button tag style; default false
     tagsInArticlePreview = true  # enable tags list in the article preview card
     gridView = false  # show post list as a grid. goes well with paperCards
     bigArticleTitle = false  # makes the title in the single article view bigger
