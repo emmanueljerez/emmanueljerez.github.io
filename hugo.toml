@@ -19,7 +19,6 @@ summaryLength = 70  # number of words for article summaries
     showPostsLink = true  # show or hide the link to the simple post list
     extraContentDirs = []  # other content directories to render similarly to the home page
     showcaseDir = "showcase"  # create a content directory that shows a special showcase section in the home page
-    katex = "true"
 
     # shows a specified single page as a home page, instead of the traditional articles list
     # requires setting `homeSinglePage`
@@ -28,14 +27,14 @@ summaryLength = 70  # number of words for article summaries
     homeSinglePage = "/home"
 
     # It's best to put these icons in the "static" folder of your site
-    logo = "/logo.svg"
-    favicon = "/favicon.png"  # 32x32
-    faviconIco = "/favicon.ico"  # 32x32
-    appletouch = "/apple-touch-icon.png"  # 180x180
-    svgicon = "/logo.svg"
-    icon512 = "/icon512.png"  # 512x512 png image
+    logo = "/triangle.png"
+    favicon = "/trianglered.png"  # 32x32
+    faviconIco = "/triangle.ico"  # 32x32
+    appletouch = "/triangle.png"  # 180x180
+    svgicon = "/triangle.png"
+    icon512 = "/triangle512.png"  # 512x512 png image
 
-    logoRightOfTitle = false  # positions the logo to the right of the title; default: false
+    logoRightOfTitle = true  # positions the logo to the right of the title; default: false
 
     showTags = true  # show the Tags menu item; default true
     showRss = false # show the link for the RSS feed; default true
@@ -56,7 +55,7 @@ summaryLength = 70  # number of words for article summaries
     contentWidth = "1000px"  # maximum width of the site content, css syntax
 
     paperCards = true  # enable paper card style; default false
-    buttonTags = true  # enable button tag style; default false
+    buttonTags = false  # enable button tag style; default false
     tagsInArticlePreview = true  # enable tags list in the article preview card
     gridView = false  # show post list as a grid. goes well with paperCards
     bigArticleTitle = false  # makes the title in the single article view bigger
@@ -90,14 +89,14 @@ summaryLength = 70  # number of words for article summaries
     # umamiScriptUrl = "https://something.com/..."
     # umamiWebsiteId = "example-tracking-code"
 
-    enableShareOnFediverse = false  # enable a button at the end of an article to share it on the fediverse
-    tocBeforeImage = false  # show the table of contents before the main article image; default false
+    enableShareOnFediverse = true  # enable a button at the end of an article to share it on the fediverse
+    tocBeforeImage = true  # show the table of contents before the main article image; default false
 
     # WARNING: deprecated! Use [[menu.icons]] instead, look below
     # links = [
-    #     ["GitLab", "https://gitlab.com/gabmus"],
-    #     ["GNOME", "https://gitlab.gnome.org/gabmus"],
-    #     ["YouTube", "https://youtube.com/TechPillsNet"]
+    #     ["GitLab", "https://gitlab.com/"],
+    #     ["GNOME", "https://gitlab.gnome.org/"],
+    #     ["YouTube", "https://youtube.com/"]
     # ]
 
     # you can customize all of the colors in this theme
@@ -105,7 +104,7 @@ summaryLength = 70  # number of words for article summaries
 
     # alternative sidebar layout
     enableSidebarLayout = false
-    tocInSidebar = false  # if the sidebar is enbabled, show the TOC in the sidebar
+    tocInSidebar = false # if the sidebar is enbabled, show the TOC in the sidebar
 
     # redirect to baseURL if current URL host doesn't match
     # useful if deploying in gitlab pages with custom domain and don't want
@@ -118,9 +117,10 @@ summaryLength = 70  # number of words for article summaries
     enableJumbotron = false  # enables jumbotron, as described below
     # related articles will be selected randomly based on tags and shown at
     # the bottom of the article, after the comments
-    enableRelatedArticles = false
+    enableRelatedArticles = true
     relatedArticlesNum = 2  # how many related articles to show
     randomRelated = false  # sorts related articles in random order (randomized at built time)
+
 
 [menu]
     # these links will be added to the main navigation menu, sorted by weight
@@ -129,8 +129,8 @@ summaryLength = 70  # number of words for article summaries
     # in params above
     [[menu.main]]
         identifier = "about"
-        name = "About"
-        url = "/about/"
+        name = "Personal Page"
+        url = "https://ime.usp.br/~ejerez"
         weight = 10
     # these links (menu.icons) will be added as icon links below the main nav
     [[menu.icons]]
@@ -138,11 +138,6 @@ summaryLength = 70  # number of words for article summaries
         name = "GitHub"
         url = "https://github.com/emmanueljerez"
         weight = 10
-    [[menu.icons]]
-        identifier = "xmpp"
-        name = "Personal page"
-        url = "https://ime.usp.br/~ejerez"
-        weight = 20
 
 # this section is necessary if you want infinite scrolling
 # it allows to output the article list as paged JSON so that "pages" can be retrieved via javascript

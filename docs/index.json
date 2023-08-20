@@ -24,7 +24,7 @@
         
         
     
-    "articles": [{"date":"2023-08-18","image":"/posts/model-categories/images/mobious.png","imageAlt":"","link":"https://emmanueljerez.github.io/posts/model-categories/model-categories/","summary":"1 This will be an introductio of purely text 2 This will be an introductio of purely text 3 This will be an introductio of purely text 4 This will be an introductio of purely text 5 This will be an introductio of purely text 6 This will be an introductio of purely text 7 This will be an introductio of purely text 8 This will be an introductio of purely text","tags":["Abstract Homotopy Theory"],"title":"Model Categories"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://emmanueljerez.github.io/manifest/index.json","summary":"","tags":[],"title":"Manifest"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://emmanueljerez.github.io/search/","summary":"","tags":[],"title":"Search"}],
+    "articles": [{"date":"2023-08-18","image":"/posts/model-categories/images/cd.svg","imageAlt":"","link":"https://emmanueljerez.github.io/posts/model-categories/model-categories/","summary":"The above is not a commutative diagram.","tags":["Abstract Homotopy Theory"],"title":"Model Categories"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://emmanueljerez.github.io/manifest/index.json","summary":"","tags":[],"title":"Manifest"},{"date":"0001-01-01","image":"","imageAlt":"","link":"https://emmanueljerez.github.io/search/","summary":"","tags":[],"title":"Search"}],
     "test": "Model Categories   Manifest   Search   ",
     "page": "1",
     "next": ""

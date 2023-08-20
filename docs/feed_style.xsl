@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta charset="UTF-8"/>
         
-        <link type="text/css" rel="stylesheet" href="https://emmanueljerez.github.io/css/styles.2292947f3cbe92f28b38ca2b1d49dcf35c4c6dde83ccff95181a0c99af6ae78d01cb98a9b64f34c41802dd709d39e2bcba5a85f1a268edc0de0409c560416e18.css" integrity="sha512-IpKUfzy+kvKLOMorHUnc81xMbd6DzP+VGBoMma9q540By5iptk80xBgC3XCdOeK8ulqF8aJo7cDeBAnFYEFuGA==" />
+        <link type="text/css" rel="stylesheet" href="https://emmanueljerez.github.io/css/styles.9aa8e47ab54c3ba96bbda99ee88a617be231df16fc38dd038412095ff805c34a35605f883d2b2851edd97f6f2aff984cfa1fb45d779cdc4477b563b38910a336.css" integrity="sha512-mqjkerVMO6lrvame6Iphe+Ix3xb8ON0DhBIJX/gFw0o1YF+IPSsoUe3Zf28q/5hM+h+0XXec3ER3tWOziRCjNg==" />
         <style>
           .aboutfeeds {
             margin: 24px 0; padding: 12px;
@@ -59,7 +59,7 @@
           </div>
           <div class="head">
             <div class="avatar">
-              <img class="logo" src="/logo.svg" alt="Site Logo"/>
+              <img class="logo" src="/triangle.png" alt="Site Logo"/>
             </div>
             <div class="description">
               <p><xsl:value-of select="/rss/channel/description"/></p>

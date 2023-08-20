@@ -7,8 +7,8 @@
   
   
   
-  "background_color": "#242629",
-  "theme_color": "#db5793"
+  "background_color": "#282C34",
+  "theme_color": "#c678dd"
   
     ,
     "description": "This is my math blog"
@@ -17,13 +17,13 @@
     ,
     "icons": [
       {
-        "src": "/icon512.png",
+        "src": "/triangle512.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
       },
       {
-        "src": "/icon512.png",
+        "src": "/triangle512.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "any"
