@@ -15,7 +15,7 @@ summaryLength = 70  # number of words for article summaries
 [params]
     author = "Emmanuel Jerez"
     description = "This is my math blog"  # this will be added as metadata
-    posts = "posts"  # content directory where to find home page posts; default searches in "posts" and "post"
+    #    posts = "posts"  # content directory where to find home page posts; default searches in "posts" and "post"
     showPostsLink = true  # show or hide the link to the simple post list
     extraContentDirs = []  # other content directories to render similarly to the home page
     showcaseDir = "showcase"  # create a content directory that shows a special showcase section in the home page
@@ -43,9 +43,9 @@ summaryLength = 70  # number of words for article summaries
     fitImageInArticlePreview = true  # make article preview images fit the article preview instead of getting cropped
     articleSummary = true  # show a summary in article preview; default true
     
-    fontFamily = "FiraCode Nerd Font"  # changes the font, default "JetBrains Mono"
-    titleFontFamily = "FiraCode Nerd Font"  # font used for titles and headings
-    monospaceFontFamily = "FiraCode Nerd Font"  # changes the monospace font for code, default "JetBrains Mono"
+    fontFamily = "FiraCode"  # changes the font, default "JetBrains Mono"
+    titleFontFamily = "FiraCode"  # font used for titles and headings
+    monospaceFontFamily = "FiraCode"  # changes the monospace font for code, default "JetBrains Mono"
 
     # multipliers applied to font sizes, useful for custom fonts that may be too big or too small
     titleFontSizeMultiplier = 1.0

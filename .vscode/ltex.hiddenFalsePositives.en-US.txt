@@ -1,0 +1,2 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QA model category is a category \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q together with three classes of morphisms \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q called weak equivalences, cofibrations and fibrations, respectively.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFor any map \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, there exists two functorial factorizations\\E$"}
