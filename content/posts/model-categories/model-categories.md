@@ -3,10 +3,11 @@ title: "Model Categories"
 date: 2023-08-18
 tags:
   - Abstract Homotopy Theory
-image: "/posts/model-categories/images/cd.svg"
+image: "/posts/model-categories/images/retract.svg"
+description: "In this blog entry I'll write as an exercise the five axioms that determines a model category, with its respective diagrams."
 katex: true
 ---
-  In this blog entry I'll write as an exercise the five axioms that determines a model category, with its respective diagrams.
+ 
 
 
   A **model category** is a category $M$ together with three classes of morphisms $\mathcal{W}, \mathcal{C}, \mathcal{F}$ called *weak equivalences*, *cofibrations*, and *fibrations*, respectively. We will use the following notation for weak equivalences, cofibrations and fibrations respectively
@@ -37,4 +38,4 @@ katex: true
 
   M5. **Factorization**. For any map $X \to Y$, there exists two functorial factorizations
 
-  ![Factorizations](/posts/model-categories/images/factor.svg).
+  ![Factorizations](/posts/model-categories/images/factor.svg)

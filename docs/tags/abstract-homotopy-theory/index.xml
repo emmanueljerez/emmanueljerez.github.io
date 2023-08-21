@@ -13,10 +13,11 @@
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://emmanueljerez.github.io/posts/model-categories/model-categories/</guid>
-      <description>In this blog entry I&amp;rsquo;ll write as an exercise the five axioms that determines a model category, with its respective diagrams.
-A model category is a category $M$ together with three classes of morphisms $\mathcal{W}, \mathcal{C}, \mathcal{F}$ called weak equivalences, cofibrations, and fibrations, respectively. We will use the following notation for weak equivalences, cofibrations and fibrations respectively
+      <description>A model category is a category $M$ together with three classes of morphisms $\mathcal{W}, \mathcal{C}, \mathcal{F}$ called weak equivalences, cofibrations, and fibrations, respectively. We will use the following notation for weak equivalences, cofibrations and fibrations respectively
 That satisfies the following properties:
-M1. $\mathcal{M}$ is a category with all small limits and colimits.</description>
+M1. $\mathcal{M}$ is a category with all small limits and colimits.
+M2. 2-out-of-3. If we have a diagram in $\mathcal{M}$ as follows:
+Then, if two of the above maps are weak equivalences, then so is the third.</description>
     </item>
     
   </channel>
