@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Papers on Emmanuel Jerez</title>
+    <link>http://localhost:1313/papers/</link>
+    <description>Recent content in Papers on Emmanuel Jerez</description>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Papers</title>
+      <link>http://localhost:1313/papers/papers/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/papers/</guid>
+      <description>Preprints This is a list of my preprints.
+Publications This is a list of my preprints.</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:1313/papers/published/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/published/</guid>
+      <description>Published works This is a list of my published works.</description>
+    </item>
+  </channel>
+</rss>
