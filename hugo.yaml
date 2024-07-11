@@ -1,9 +1,10 @@
 baseURL: "https://emmanueljerez.github.io/"
+
 title: Emmanuel Jerez
 copyright: "© Emmanuel Jerez"
 paginate: 5
 theme: [PaperMod]
-
+publishDir: "docs" 
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -164,3 +165,4 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
+
