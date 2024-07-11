@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Emmanuel Jerez</title>
-    <link>http://localhost:1313/</link>
+    <link>https://emmanueljerez.github.io/</link>
     <description>Recent content on Emmanuel Jerez</description>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
     <copyright>Emmanuel Jerez</copyright>
     <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://emmanueljerez.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About my research interests</title>
-      <link>http://localhost:1313/posts/interests/</link>
+      <link>https://emmanueljerez.github.io/posts/interests/</link>
       <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/interests/</guid>
+      <guid>https://emmanueljerez.github.io/posts/interests/</guid>
       <description>My principal research interests are:
 Homological Algebra I am interested in various homology theories such as Hochschild and cyclic homology of algebras, as well as partial group homology of partial representations.
 Partial Actions and Partial Representations Partial actions are a generalization of usual group (Hopf) actions, focusing on the partial symmetries of a space. I will expand on this topic in a future post. I have conducted research into the categorical and homological properties of partial actions.</description>
     </item>
     <item>
       <title>About me</title>
-      <link>http://localhost:1313/aboutme/</link>
+      <link>https://emmanueljerez.github.io/aboutme/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/aboutme/</guid>
+      <guid>https://emmanueljerez.github.io/aboutme/</guid>
       <description>👋 Hello, I&amp;rsquo;m Emmanuel Jerez. I obtained my bachelor&amp;rsquo;s degree in mathematics in 2018 from the Industrial University of Santander (Colombia) and my master&amp;rsquo;s degree in mathematics (Cohomology based on partial representations) in 2020 from the University of São Paulo (Brazil) under the direction of Professor Mikhailo Dokuchaev.
 I expect to complete my PhD at the University of São Paulo under the supervision of Professor Mikhailo Dokuchaev in August 2024. My PhD research has focused on the (co)homological framework of partial actions of groups and Hopf algebras.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://emmanueljerez.github.io/contact/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://emmanueljerez.github.io/contact/</guid>
       <description>You can contact me via email: ejerez [dot] math [at] gmail [dot] com (ejerez.math@gmail.com).</description>
     </item>
     <item>
       <title>Papers</title>
-      <link>http://localhost:1313/papers/</link>
+      <link>https://emmanueljerez.github.io/papers/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/papers/</guid>
+      <guid>https://emmanueljerez.github.io/papers/</guid>
       <description>Publications List of my published papers from the newest to the oldest:
 M. Dokuchaev, E. Jerez, (Co)homology of partial smash products, Journal of Algebra, 652 (2024), pp. 113-157. Journal Version, Preprint, ArXiv.
 M. Dokuchaev, E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society, (2024), to appear Journal Version, Preprint, ArXiv.
