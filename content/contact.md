@@ -7,4 +7,4 @@ TocOpen: false
 disableShare: true
 ---
 
-You can contact me via email: [ejerez [dot] math [at] gmail [dot] com](mailto:ejerez.math@gmail.com) ([ejerez.math@gmail.com](mailto:ejerez.math@gmail.com)).
+You can contact me via email: [ars [dot] ejerez [at] icloud [dot] com](mailto:ejerez.math@gmail.com) ([ejerez.math@gmail.com](mailto:ejerez.math@gmail.com)).
