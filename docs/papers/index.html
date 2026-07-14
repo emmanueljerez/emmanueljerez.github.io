@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en" dir="ltr" data-theme="auto">
 
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +7,34 @@
 <meta name="robots" content="index, follow">
 <title>Papers | Emmanuel Jerez</title>
 <meta name="keywords" content="">
-<meta name="description" content="Publications List of my published papers from the newest to the oldest:
-M. Dokuchaev, E. Jerez, (Co)homology of partial smash products, Journal of Algebra, 652 (2024), pp. 113-157. Journal Version, Preprint, ArXiv.
-M. Dokuchaev, E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society, (2024), to appear Journal Version, Preprint, ArXiv.
-Preprints List of my preprints from the newest to the oldest:">
-<meta name="author" content="">
+<meta name="description" content="Published articles
+
+
+E. Jerez, The category of partial group actions: quotients, (co)limits and groupoids, Communications in Algebra 53 (2025), no. 6, 2528–2554.
+Journal · arXiv
+
+
+M. Dokuchaev and E. Jerez, (Co)homology of partial smash products, Journal of Algebra 652 (2024), 113–157.
+Journal · arXiv
+
+
+M. Dokuchaev and E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society 55 (2024), Article 33.
+Journal · arXiv
+
+
+Preprints
+
+
+M. Dokuchaev, E. Jerez, and J. L. Vilca-Rodríguez, Globalization of partial group actions on not necessarily associative algebras and covariant representations, 2026.
+arXiv">
+<meta name="author" content="Emmanuel Jerez">
 <link rel="canonical" href="https://emmanueljerez.github.io/papers/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.31f4132a2294f1e65473d35247f033434cb9dd6a137282653a99e81b00af7db8.css" integrity="sha256-MfQTKiKU8eZUc9NSR/AzQ0y53WoTcoJlOpnoGwCvfbg=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://emmanueljerez.github.io/favicon.ico">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2a04b817f05bc367d60081e81be0ccab419b1188bfb3ac409d0424c5de2bd168.css" integrity="sha256-KgS4F/Bbw2fWAIHoG&#43;DMq0GbEYi/s6xAnQQkxd4r0Wg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://emmanueljerez.github.io/favicon.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="https://emmanueljerez.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://emmanueljerez.github.io/favicon-32x32.png">
 <link rel="apple-touch-icon" href="https://emmanueljerez.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://emmanueljerez.github.io/safari-pinned-tab.svg">
+<link rel="mask-icon" href="https://emmanueljerez.github.io/favicon.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" hreflang="en" href="https://emmanueljerez.github.io/papers/">
@@ -42,41 +58,59 @@ Preprints List of my preprints from the newest to the oldest:">
                 --code-block-bg: rgb(46, 46, 51);
                 --code-bg: rgb(55, 56, 62);
                 --border: rgb(51, 51, 51);
+                color-scheme: dark;
             }
 
             .list {
                 background: var(--theme);
             }
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
+            .toc {
+                background: var(--entry);
             }
         }
 
     </style>
 </noscript>
-  
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
 
-<meta property="og:title" content="Papers" />
-<meta property="og:description" content="Publications List of my published papers from the newest to the oldest:
-M. Dokuchaev, E. Jerez, (Co)homology of partial smash products, Journal of Algebra, 652 (2024), pp. 113-157. Journal Version, Preprint, ArXiv.
-M. Dokuchaev, E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society, (2024), to appear Journal Version, Preprint, ArXiv.
-Preprints List of my preprints from the newest to the oldest:" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://emmanueljerez.github.io/papers/" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2024-07-07T00:00:00+00:00" />
-<meta property="article:modified_time" content="2024-07-07T00:00:00+00:00" />
+</script><meta property="og:url" content="https://emmanueljerez.github.io/papers/">
+  <meta property="og:site_name" content="Emmanuel Jerez">
+  <meta property="og:title" content="Papers">
+  <meta property="og:description" content="Published articles E. Jerez, The category of partial group actions: quotients, (co)limits and groupoids, Communications in Algebra 53 (2025), no. 6, 2528–2554.
+Journal · arXiv
+M. Dokuchaev and E. Jerez, (Co)homology of partial smash products, Journal of Algebra 652 (2024), 113–157.
+Journal · arXiv
+M. Dokuchaev and E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society 55 (2024), Article 33.
+Journal · arXiv
+Preprints M. Dokuchaev, E. Jerez, and J. L. Vilca-Rodríguez, Globalization of partial group actions on not necessarily associative algebras and covariant representations, 2026.
+arXiv">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2024-07-07T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-07T00:00:00+00:00">
+      <meta property="og:image" content="https://emmanueljerez.github.io/images/profile.jpeg">
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Papers"/>
-<meta name="twitter:description" content="Publications List of my published papers from the newest to the oldest:
-M. Dokuchaev, E. Jerez, (Co)homology of partial smash products, Journal of Algebra, 652 (2024), pp. 113-157. Journal Version, Preprint, ArXiv.
-M. Dokuchaev, E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society, (2024), to appear Journal Version, Preprint, ArXiv.
-Preprints List of my preprints from the newest to the oldest:"/>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://emmanueljerez.github.io/images/profile.jpeg">
+  <meta name="twitter:title" content="Papers">
+  <meta name="twitter:description" content="Published articles E. Jerez, The category of partial group actions: quotients, (co)limits and groupoids, Communications in Algebra 53 (2025), no. 6, 2528–2554.
+Journal · arXiv
+M. Dokuchaev and E. Jerez, (Co)homology of partial smash products, Journal of Algebra 652 (2024), 113–157.
+Journal · arXiv
+M. Dokuchaev and E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society 55 (2024), Article 33.
+Journal · arXiv
+Preprints M. Dokuchaev, E. Jerez, and J. L. Vilca-Rodríguez, Globalization of partial group actions on not necessarily associative algebras and covariant representations, 2026.
+arXiv">
 
 
 <script type="application/ld+json">
@@ -99,15 +133,19 @@ Preprints List of my preprints from the newest to the oldest:"/>
   "@type": "BlogPosting",
   "headline": "Papers",
   "name": "Papers",
-  "description": "Publications List of my published papers from the newest to the oldest:\nM. Dokuchaev, E. Jerez, (Co)homology of partial smash products, Journal of Algebra, 652 (2024), pp. 113-157. Journal Version, Preprint, ArXiv.\nM. Dokuchaev, E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society, (2024), to appear Journal Version, Preprint, ArXiv.\nPreprints List of my preprints from the newest to the oldest:",
+  "description": "Published articles E. Jerez, The category of partial group actions: quotients, (co)limits and groupoids, Communications in Algebra 53 (2025), no. 6, 2528–2554.\nJournal · arXiv\nM. Dokuchaev and E. Jerez, (Co)homology of partial smash products, Journal of Algebra 652 (2024), 113–157.\nJournal · arXiv\nM. Dokuchaev and E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society 55 (2024), Article 33.\nJournal · arXiv\nPreprints M. Dokuchaev, E. Jerez, and J. L. Vilca-Rodríguez, Globalization of partial group actions on not necessarily associative algebras and covariant representations, 2026.\narXiv\n",
   "keywords": [
     
   ],
-  "articleBody": "Publications List of my published papers from the newest to the oldest:\nM. Dokuchaev, E. Jerez, (Co)homology of partial smash products, Journal of Algebra, 652 (2024), pp. 113-157. Journal Version, Preprint, ArXiv.\nM. Dokuchaev, E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society, (2024), to appear Journal Version, Preprint, ArXiv.\nPreprints List of my preprints from the newest to the oldest:\nE. Jerez, On the homology of partial group actions, 2024. Preprint, ArXiv.\nE. Jerez, The category of partial group actions: quotients, (co)limits and groupoids, 2023\nPreprint, ArXiv.\n",
-  "wordCount" : "98",
+  "articleBody": "Published articles E. Jerez, The category of partial group actions: quotients, (co)limits and groupoids, Communications in Algebra 53 (2025), no. 6, 2528–2554.\nJournal · arXiv\nM. Dokuchaev and E. Jerez, (Co)homology of partial smash products, Journal of Algebra 652 (2024), 113–157.\nJournal · arXiv\nM. Dokuchaev and E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society 55 (2024), Article 33.\nJournal · arXiv\nPreprints M. Dokuchaev, E. Jerez, and J. L. Vilca-Rodríguez, Globalization of partial group actions on not necessarily associative algebras and covariant representations, 2026.\narXiv\nE. Jerez, Homology of epsilon-strongly graded algebras, 2025.\narXiv\nM. Dokuchaev and E. Jerez, Twisted partial group algebra and related topological partial dynamical system, 2024.\narXiv\nE. Jerez, On the homology of partial group representations, 2024.\narXiv\nM. Dokuchaev, E. Jerez, and E. N. Marcos, Globalization of Hochschild homology and smooth algebras.\nS. Caenepeel, M. Dokuchaev, E. Jerez, and H. Pinedo, Partial group cohomology and the Amitsur complex.\nCurrent projects E. Jerez, M. J. Redondo, and L. Román, Hochschild cohomology for infinitesimal deformations. M. Dokuchaev, E. Jerez, and H. Pinedo, Partial actions of Hopf algebras: cohomology and Galois extensions. ",
+  "wordCount" : "196",
   "inLanguage": "en",
-  "datePublished": "2024-07-07T00:00:00Z",
+  "image": "https://emmanueljerez.github.io/images/profile.jpeg","datePublished": "2024-07-07T00:00:00Z",
   "dateModified": "2024-07-07T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Emmanuel Jerez"
+  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://emmanueljerez.github.io/papers/"
@@ -117,37 +155,25 @@ Preprints List of my preprints from the newest to the oldest:"/>
     "name": "Emmanuel Jerez",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://emmanueljerez.github.io/favicon.ico"
+      "url": "https://emmanueljerez.github.io/favicon.svg"
     }
   }
 }
 </script>
 </head>
-
-<body class="" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
         <div class="logo">
             <a href="https://emmanueljerez.github.io/" accesskey="h" title="Emmanuel Jerez (Alt + H)">Emmanuel Jerez</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                     </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
@@ -163,40 +189,30 @@ Preprints List of my preprints from the newest to the oldest:"/>
                 </button>
             </div>
         </div>
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li>
                 <a href="https://emmanueljerez.github.io/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://emmanueljerez.github.io/aboutme" title="About me">
-                    <span>About me</span>
+                <a href="https://emmanueljerez.github.io/aboutme/" title="About">
+                    <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://emmanueljerez.github.io/posts/" title="Posts">
-                    <span>Posts</span>
+                <a href="https://emmanueljerez.github.io/papers/" title="Publications">
+                    <span class="active">Publications</span>
                 </a>
             </li>
             <li>
-                <a href="https://emmanueljerez.github.io/papers" title="Papers">
-                    <span class="active">Papers</span>
+                <a href="https://emmanueljerez.github.io/talks/" title="Talks">
+                    <span>Talks</span>
                 </a>
             </li>
             <li>
-                <a href="https://emmanueljerez.github.io/contact" title="Contact">
+                <a href="https://emmanueljerez.github.io/contact/" title="Contact">
                     <span>Contact</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://emmanueljerez.github.io/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://emmanueljerez.github.io/tags/" title="Tags">
-                    <span>Tags</span>
                 </a>
             </li>
         </ul>
@@ -206,38 +222,73 @@ Preprints List of my preprints from the newest to the oldest:"/>
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://emmanueljerez.github.io/">Home</a></div>
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='https://emmanueljerez.github.io/'>Home</a></nav>
     <h1 class="post-title entry-hint-parent">
       Papers
     </h1>
-    <div class="post-meta"><span title='2024-07-07 00:00:00 +0000 UTC'>July 7, 2024</span>&nbsp;·&nbsp;1 min
+  </header> <details class="toc"  open>
+    <summary accesskey="c" title="(Alt + C)">
+        <span class="title">Table of Contents</span>
+    </summary>
 
-</div>
-  </header> 
-  <div class="post-content"><h3 id="publications">Publications<a hidden class="anchor" aria-hidden="true" href="#publications">#</a></h3>
-<p>List of my published papers from the newest to the oldest:</p>
+    <div class="inner"><ul>
+            <li>
+                <a href="#published-articles" aria-label="Published articles">Published articles</a></li>
+            <li>
+                <a href="#preprints" aria-label="Preprints">Preprints</a></li>
+            <li>
+                <a href="#current-projects" aria-label="Current projects">Current projects</a>
+            </li>
+        </ul>
+    </div>
+</details>
+
+  <div class="post-content md-content"><h2 id="published-articles">Published articles<a hidden class="anchor" aria-hidden="true" href="#published-articles">#</a></h2>
 <ol>
 <li>
-<p><strong>M. Dokuchaev, E. Jerez</strong>, <em>(Co)homology of partial smash products</em>, Journal of Algebra, 652 (2024), pp. 113-157.
-<a href="https://doi.org/10.1016/j.jalgebra.2024.04.017">Journal Version</a>, <a href="/files/papers/published/MDEJ:cohomology_of_partial_smash_products:2024.pdf">Preprint</a>, <a href="https://arxiv.org/abs/2311.16990">ArXiv</a>.</p>
+<p><strong>E. Jerez</strong>, <em>The category of partial group actions: quotients, (co)limits and groupoids</em>, Communications in Algebra <strong>53</strong> (2025), no. 6, 2528–2554.<br>
+<a href="https://doi.org/10.1080/00927872.2024.2446548">Journal</a> · <a href="https://arxiv.org/abs/2311.06223">arXiv</a></p>
 </li>
 <li>
-<p><strong>M. Dokuchaev, E. Jerez</strong>, <em>The twisted partial group algebra and (co)homology of partial crossed products</em>, Bulletin of the Brazilian Mathematical Society, (2024), to appear
-<a href="https://link.springer.com/article/10.1007/s00574-024-00408-5">Journal Version</a>, <a href="/files/papers/published/MDEJ:The_twisted_partial_group_algebra:2024.pdf">Preprint</a>, <a href="https://arxiv.org/abs/2311.16999">ArXiv</a>.</p>
+<p><strong>M. Dokuchaev and E. Jerez</strong>, <em>(Co)homology of partial smash products</em>, Journal of Algebra <strong>652</strong> (2024), 113–157.<br>
+<a href="https://doi.org/10.1016/j.jalgebra.2024.04.017">Journal</a> · <a href="https://arxiv.org/abs/2311.16990">arXiv</a></p>
+</li>
+<li>
+<p><strong>M. Dokuchaev and E. Jerez</strong>, <em>The twisted partial group algebra and (co)homology of partial crossed products</em>, Bulletin of the Brazilian Mathematical Society <strong>55</strong> (2024), Article 33.<br>
+<a href="https://doi.org/10.1007/s00574-024-00408-5">Journal</a> · <a href="https://arxiv.org/abs/2311.16999">arXiv</a></p>
 </li>
 </ol>
-<h3 id="preprints">Preprints<a hidden class="anchor" aria-hidden="true" href="#preprints">#</a></h3>
-<p>List of my preprints from the newest to the oldest:</p>
+<h2 id="preprints">Preprints<a hidden class="anchor" aria-hidden="true" href="#preprints">#</a></h2>
 <ol>
 <li>
-<p><strong>E. Jerez</strong>, <em>On the homology of partial group actions</em>, 2024.
-<a href="/files/papers/preprints/EJ:homology_of_partial_actions:2024.pdf">Preprint</a>, <a href="https://arxiv.org/abs/2404.14650">ArXiv</a>.</p>
+<p><strong>M. Dokuchaev, E. Jerez, and J. L. Vilca-Rodríguez</strong>, <em>Globalization of partial group actions on not necessarily associative algebras and covariant representations</em>, 2026.<br>
+<a href="https://arxiv.org/abs/2604.21167">arXiv</a></p>
 </li>
 <li>
-<p><strong>E. Jerez</strong>, <em>The category of partial group actions: quotients, (co)limits and groupoids</em>, 2023<br>
-<a href="/files/papers/preprints/EJ:the_category_of_partial_group_actions:2024.pdf">Preprint</a>, <a href="https://arxiv.org/abs/2311.06223">ArXiv</a>.</p>
+<p><strong>E. Jerez</strong>, <em>Homology of epsilon-strongly graded algebras</em>, 2025.<br>
+<a href="https://arxiv.org/abs/2507.16778">arXiv</a></p>
+</li>
+<li>
+<p><strong>M. Dokuchaev and E. Jerez</strong>, <em>Twisted partial group algebra and related topological partial dynamical system</em>, 2024.<br>
+<a href="https://arxiv.org/abs/2411.09824">arXiv</a></p>
+</li>
+<li>
+<p><strong>E. Jerez</strong>, <em>On the homology of partial group representations</em>, 2024.<br>
+<a href="https://arxiv.org/abs/2404.14650">arXiv</a></p>
+</li>
+<li>
+<p><strong>M. Dokuchaev, E. Jerez, and E. N. Marcos</strong>, <em>Globalization of Hochschild homology and smooth algebras</em>.</p>
+</li>
+<li>
+<p><strong>S. Caenepeel, M. Dokuchaev, E. Jerez, and H. Pinedo</strong>, <em>Partial group cohomology and the Amitsur complex</em>.</p>
 </li>
 </ol>
+<h2 id="current-projects">Current projects<a hidden class="anchor" aria-hidden="true" href="#current-projects">#</a></h2>
+<ul>
+<li><strong>E. Jerez, M. J. Redondo, and L. Román</strong>, <em>Hochschild cohomology for infinitesimal deformations</em>.</li>
+<li><strong>M. Dokuchaev, E. Jerez, and H. Pinedo</strong>, <em>Partial actions of Hopf algebras: cohomology and Galois extensions</em>.</li>
+</ul>
 
 
   </div>
@@ -259,16 +310,23 @@ Preprints List of my preprints from the newest to the oldest:"/>
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </a>
 
 <script>
-    let menu = document.getElementById('menu')
+    let menu = document.getElementById('menu');
     if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
         menu.onscroll = function () {
             localStorage.setItem("menu-scroll-position", menu.scrollLeft);
         }
@@ -295,25 +353,25 @@ Preprints List of my preprints from the newest to the oldest:"/>
 
 </script>
 <script>
-    var mybutton = document.getElementById("top-link");
+    var toplink = document.getElementById("top-link");
     window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
         } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
+            toplink.classList.add("hidden");
         }
     };
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
             localStorage.setItem("pref-theme", 'light');
         } else {
-            document.body.classList.add('dark');
+            html.dataset.theme = 'dark';
             localStorage.setItem("pref-theme", 'dark');
         }
     })
