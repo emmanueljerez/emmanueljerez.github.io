@@ -3,7 +3,7 @@ baseURL: "https://emmanueljerez.github.io/"
 title: Emmanuel Jerez
 copyright: "© Emmanuel Jerez"
 paginate: 5
-theme: [PaperMod]
+theme: PaperMod
 publishDir: "docs" 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -20,37 +20,31 @@ minify:
 
 languages:
   en:
-    languageName: "English"
+    label: "English"
+    locale: "en-US"
+    direction: "ltr"
     weight: 1
     taxonomies:
       category: categories
       tag: tags
       series: series
-    menu:
-      main:
-
-        - name: "Home"
-          url: /
-          weight: 1
-        - name: "About me"
-          url: aboutme
-          weight: 2
-        - name: "Posts"
-          url: posts/
-          weight: 3
-        - name: "Papers"
-          url: papers
-          weight: 4
-        - name: "Contact"
-          url: contact
-          weight: 6
-        - name: Search
-          url: search/
-          weight: 7
-        - name: Tags
-          url: tags/
-          weight: 10
-
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "About"
+      url: "/aboutme/"
+      weight: 2
+    - name: "Publications"
+      url: "/papers/"
+      weight: 3
+    - name: "Talks"
+      url: "/talks/"
+      weight: 4
+    - name: "Contact"
+      url: "/contact/"
+      weight: 5
 outputs:
   home:
     - HTML
@@ -58,6 +52,9 @@ outputs:
     - JSON
 
 params:
+  description: "Academic website of Emmanuel Jerez, a mathematician working in homological algebra, representation theory, graded algebras, and partial group actions."
+  author: "Emmanuel Jerez"
+  keywords: ["homological algebra", "representation theory", "graded algebras", "partial group actions", "mathematics"]
   defaultTheme: auto
   # disableThemeToggle: true
   ShowShareButtons: true
@@ -72,26 +69,30 @@ params:
   ShowPageNums: true
   ShowToc: true
   # comments: false
-  # images: ["images/papermod-cover.png"]
+  images: ["images/profile.jpeg"]
 
-  homeInfoParams:
-    Title: "Emmanuel Jerez's personal page"
-    Content: >
-      👋 Welcome to my personal page!
-
-      - Here you can found my work.
-
-      - Some posts about maths.
-
-      - Resourses of my talks and other stuff.
+  profileMode:
+    enabled: true
+    title: "Emmanuel Jerez"
+    subtitle: >
+      Postdoctoral researcher working in homological algebra, representation theory and partial group actions.
+    imageUrl: "/images/profile.jpeg"
+    imageTitle: "Portrait of Emmanuel Jerez"
+    imageWidth: 180
+    imageHeight: 180
+    buttons:
+      - name: "About me"
+        url: "/aboutme/"
+      - name: "Publications"
+        url: "/papers/"
 
   socialIcons:
     - name: github
-      title: Github
+      title: GitHub
       url: "https://github.com/emmanueljerez"
     - name: email
       title: Contact me via my email
-      url: "mailto:ejerez.math@gmail.com"
+      url: "mailto:ars.ejerez@icloud.com"
 
       #  editPost:
       #    URL: "mailto:ejerez.math@gmail.com"
@@ -110,11 +111,11 @@ params:
 
   assets:
     disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.svg"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon.svg"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
@@ -147,7 +148,7 @@ markup:
 #     disabled: false
 #     simple: true
 
-#   twitter:
+#   x:
 #     disabled: false
 #     enableDNT: true
 #     simple: true
@@ -163,6 +164,5 @@ markup:
 services:
   instagram:
     disableInlineCSS: true
-  twitter:
+  x:
     disableInlineCSS: true
-

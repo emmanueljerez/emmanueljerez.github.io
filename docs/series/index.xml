@@ -4,8 +4,13 @@
     <title>Series on Emmanuel Jerez</title>
     <link>https://emmanueljerez.github.io/series/</link>
     <description>Recent content in Series on Emmanuel Jerez</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en</language>
+    <image>
+      <title>Emmanuel Jerez</title>
+      <url>https://emmanueljerez.github.io/images/profile.jpeg</url>
+      <link>https://emmanueljerez.github.io/images/profile.jpeg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-US</language>
     <copyright>Emmanuel Jerez</copyright>
     <atom:link href="https://emmanueljerez.github.io/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>

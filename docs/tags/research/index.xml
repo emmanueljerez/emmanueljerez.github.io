@@ -4,8 +4,13 @@
     <title>Research on Emmanuel Jerez</title>
     <link>https://emmanueljerez.github.io/tags/research/</link>
     <description>Recent content in Research on Emmanuel Jerez</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en</language>
+    <image>
+      <title>Emmanuel Jerez</title>
+      <url>https://emmanueljerez.github.io/images/profile.jpeg</url>
+      <link>https://emmanueljerez.github.io/images/profile.jpeg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-US</language>
     <copyright>Emmanuel Jerez</copyright>
     <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://emmanueljerez.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
@@ -14,9 +19,11 @@
       <link>https://emmanueljerez.github.io/posts/interests/</link>
       <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://emmanueljerez.github.io/posts/interests/</guid>
-      <description>My principal research interests are:
-Homological Algebra I am interested in various homology theories such as Hochschild and cyclic homology of algebras, as well as partial group homology of partial representations.
-Partial Actions and Partial Representations Partial actions are a generalization of usual group (Hopf) actions, focusing on the partial symmetries of a space. I will expand on this topic in a future post. I have conducted research into the categorical and homological properties of partial actions.</description>
+      <description>&lt;p&gt;My principal research interests are:&lt;/p&gt;
+&lt;h3 id=&#34;homological-algebra&#34;&gt;Homological Algebra&lt;/h3&gt;
+&lt;p&gt;I am interested in various homology theories such as Hochschild and cyclic homology of algebras, as well as partial group homology of partial representations.&lt;/p&gt;
+&lt;h3 id=&#34;partial-actions-and-partial-representations&#34;&gt;Partial Actions and Partial Representations&lt;/h3&gt;
+&lt;p&gt;Partial actions are a generalization of usual group (Hopf) actions, focusing on the partial symmetries of a space. I will expand on this topic in a future post. I have conducted research into the categorical and homological properties of partial actions.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

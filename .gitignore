@@ -1,0 +1,6 @@
+# macOS metadata
+.DS_Store
+
+# Hugo temporary files
+.hugo_build.lock
+resources/_gen/

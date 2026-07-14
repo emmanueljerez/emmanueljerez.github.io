@@ -2,17 +2,30 @@
 title: "About me"
 date: 2024-07-09
 draft: false
+hideMeta: true
 ShowToc: false
 TocOpen: false
 disableShare: true
 ---
 
+<div class="about-intro">
+<img class="about-photo" src="/images/about/emmanuel-jerez-about.jpeg" alt="Emmanuel Jerez standing on a city street">
+<div class="about-intro-text">
+<p>Hello, I am Emmanuel Jerez, a postdoctoral researcher and teaching assistant at the Guangdong Technion–Israel Institute of Technology (GTIIT) in Shantou, China.</p>
+<p>I work in representation theory and homological algebra, with an emphasis on categorical and cohomological methods for algebraic structures arising from symmetries.</p>
+<p>My current research concerns associative and graded algebras, deformation theory, derived invariants, and their connections with representation theory.</p>
+</div>
+</div>
 
-👋 Hello, I'm Emmanuel Jerez. I obtained my bachelor's degree in mathematics in 2018 from the Industrial University of Santander (Colombia) and my master's degree in mathematics (Cohomology based on partial representations) in 2020 from the University of São Paulo (Brazil) under the direction of Professor Mikhailo Dokuchaev.
+## Research
 
-I expect to complete my PhD at the University of São Paulo under the supervision of Professor Mikhailo Dokuchaev in August 2024. My PhD research has focused on the (co)homological framework of partial actions of groups and Hopf algebras.
+At GTIIT, I conduct research under the supervision of Professor María Julia Redondo. I am particularly interested in associative and graded algebras, Hochschild (co)homology, deformation theory, and derived invariants. I am also interested in algebraic geometry, category theory, and computational approaches to algebra.
 
-In addition to pure mathematics, I have a strong interest in computational mathematics, particularly in the applications of algebra to solve computational problems. Moreover, I enjoy coding programs to solve algebraic problems.
+My doctoral research developed a homological framework for partial actions of groups and Hopf algebras, including structural and cohomological aspects of the associated algebraic constructions.
 
-Here is a copy of my [CV](files/cv.pdf).
+## Education
 
+- **PhD in Mathematics**, University of São Paulo, Brazil, 2024.  
+  Thesis: *Partial actions and homology*. Advisor: Professor Mikhailo Dokuchaev.
+
+You can find further information in my [curriculum vitae](/files/cv.pdf). You can also explore my [publications](/papers/) and [talks](/talks/).

@@ -4,8 +4,13 @@
     <title>Emmanuel Jerez</title>
     <link>https://emmanueljerez.github.io/</link>
     <description>Recent content on Emmanuel Jerez</description>
-    <generator>Hugo -- 0.128.2</generator>
-    <language>en</language>
+    <image>
+      <title>Emmanuel Jerez</title>
+      <url>https://emmanueljerez.github.io/images/profile.jpeg</url>
+      <link>https://emmanueljerez.github.io/images/profile.jpeg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-US</language>
     <copyright>Emmanuel Jerez</copyright>
     <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://emmanueljerez.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -14,34 +19,83 @@
       <link>https://emmanueljerez.github.io/posts/interests/</link>
       <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://emmanueljerez.github.io/posts/interests/</guid>
-      <description>My principal research interests are:
-Homological Algebra I am interested in various homology theories such as Hochschild and cyclic homology of algebras, as well as partial group homology of partial representations.
-Partial Actions and Partial Representations Partial actions are a generalization of usual group (Hopf) actions, focusing on the partial symmetries of a space. I will expand on this topic in a future post. I have conducted research into the categorical and homological properties of partial actions.</description>
+      <description>&lt;p&gt;My principal research interests are:&lt;/p&gt;
+&lt;h3 id=&#34;homological-algebra&#34;&gt;Homological Algebra&lt;/h3&gt;
+&lt;p&gt;I am interested in various homology theories such as Hochschild and cyclic homology of algebras, as well as partial group homology of partial representations.&lt;/p&gt;
+&lt;h3 id=&#34;partial-actions-and-partial-representations&#34;&gt;Partial Actions and Partial Representations&lt;/h3&gt;
+&lt;p&gt;Partial actions are a generalization of usual group (Hopf) actions, focusing on the partial symmetries of a space. I will expand on this topic in a future post. I have conducted research into the categorical and homological properties of partial actions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About me</title>
       <link>https://emmanueljerez.github.io/aboutme/</link>
       <pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://emmanueljerez.github.io/aboutme/</guid>
-      <description>👋 Hello, I&amp;rsquo;m Emmanuel Jerez. I obtained my bachelor&amp;rsquo;s degree in mathematics in 2018 from the Industrial University of Santander (Colombia) and my master&amp;rsquo;s degree in mathematics (Cohomology based on partial representations) in 2020 from the University of São Paulo (Brazil) under the direction of Professor Mikhailo Dokuchaev.
-I expect to complete my PhD at the University of São Paulo under the supervision of Professor Mikhailo Dokuchaev in August 2024. My PhD research has focused on the (co)homological framework of partial actions of groups and Hopf algebras.</description>
+      <description>&lt;div class=&#34;about-intro&#34;&gt;
+&lt;img class=&#34;about-photo&#34; src=&#34;https://emmanueljerez.github.io/images/about/emmanuel-jerez-about.jpeg&#34; alt=&#34;Emmanuel Jerez standing on a city street&#34;&gt;
+&lt;div class=&#34;about-intro-text&#34;&gt;
+&lt;p&gt;Hello, I am Emmanuel Jerez, a postdoctoral researcher and teaching assistant at the Guangdong Technion–Israel Institute of Technology (GTIIT) in Shantou, China.&lt;/p&gt;
+&lt;p&gt;I work in representation theory and homological algebra, with an emphasis on categorical and cohomological methods for algebraic structures arising from symmetries.&lt;/p&gt;
+&lt;p&gt;My current research concerns associative and graded algebras, deformation theory, derived invariants, and their connections with representation theory.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+&lt;p&gt;At GTIIT, I conduct research under the supervision of Professor María Julia Redondo. I am particularly interested in associative and graded algebras, Hochschild (co)homology, deformation theory, and derived invariants. I am also interested in algebraic geometry, category theory, and computational approaches to algebra.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>
       <link>https://emmanueljerez.github.io/contact/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://emmanueljerez.github.io/contact/</guid>
-      <description>You can contact me via email: ejerez [dot] math [at] gmail [dot] com (ejerez.math@gmail.com).</description>
+      <description>&lt;p&gt;&lt;img
+class=&#34;contact-photo&#34;
+src=&#34;https://emmanueljerez.github.io/images/contact/hot-air-balloons.jpeg&#34;
+alt=&#34;Colorful hot-air balloons flying over a landscape&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The best way to contact me is by email:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;mailto:ars.ejerez@icloud.com&#34;&gt;ars.ejerez@icloud.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You can also find my public projects and source code on
+&lt;a href=&#34;https://github.com/emmanueljerez&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Papers</title>
       <link>https://emmanueljerez.github.io/papers/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://emmanueljerez.github.io/papers/</guid>
-      <description>Publications List of my published papers from the newest to the oldest:
-M. Dokuchaev, E. Jerez, (Co)homology of partial smash products, Journal of Algebra, 652 (2024), pp. 113-157. Journal Version, Preprint, ArXiv.
-M. Dokuchaev, E. Jerez, The twisted partial group algebra and (co)homology of partial crossed products, Bulletin of the Brazilian Mathematical Society, (2024), to appear Journal Version, Preprint, ArXiv.
-Preprints List of my preprints from the newest to the oldest:</description>
+      <description>&lt;h2 id=&#34;published-articles&#34;&gt;Published articles&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;E. Jerez&lt;/strong&gt;, &lt;em&gt;The category of partial group actions: quotients, (co)limits and groupoids&lt;/em&gt;, Communications in Algebra &lt;strong&gt;53&lt;/strong&gt; (2025), no. 6, 2528–2554.&lt;br&gt;
+&lt;a href=&#34;https://doi.org/10.1080/00927872.2024.2446548&#34;&gt;Journal&lt;/a&gt; · &lt;a href=&#34;https://arxiv.org/abs/2311.06223&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;M. Dokuchaev and E. Jerez&lt;/strong&gt;, &lt;em&gt;(Co)homology of partial smash products&lt;/em&gt;, Journal of Algebra &lt;strong&gt;652&lt;/strong&gt; (2024), 113–157.&lt;br&gt;
+&lt;a href=&#34;https://doi.org/10.1016/j.jalgebra.2024.04.017&#34;&gt;Journal&lt;/a&gt; · &lt;a href=&#34;https://arxiv.org/abs/2311.16990&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;M. Dokuchaev and E. Jerez&lt;/strong&gt;, &lt;em&gt;The twisted partial group algebra and (co)homology of partial crossed products&lt;/em&gt;, Bulletin of the Brazilian Mathematical Society &lt;strong&gt;55&lt;/strong&gt; (2024), Article 33.&lt;br&gt;
+&lt;a href=&#34;https://doi.org/10.1007/s00574-024-00408-5&#34;&gt;Journal&lt;/a&gt; · &lt;a href=&#34;https://arxiv.org/abs/2311.16999&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;preprints&#34;&gt;Preprints&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;M. Dokuchaev, E. Jerez, and J. L. Vilca-Rodríguez&lt;/strong&gt;, &lt;em&gt;Globalization of partial group actions on not necessarily associative algebras and covariant representations&lt;/em&gt;, 2026.&lt;br&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2604.21167&#34;&gt;arXiv&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Talks</title>
+      <link>https://emmanueljerez.github.io/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://emmanueljerez.github.io/talks/</guid>
+      <description>&lt;h2 id=&#34;invited-and-conference-talks&#34;&gt;Invited and conference talks&lt;/h2&gt;
+&lt;h3 id=&#34;homology-of-epsilon-strongly-graded-algebras&#34;&gt;Homology of epsilon-strongly graded algebras&lt;/h3&gt;
+&lt;p&gt;Invited talk at the &lt;strong&gt;Conference on Theoretical and Computational Algebra 2026&lt;/strong&gt;, University of Minho, Guimarães, Portugal, June 28–July 2, 2026.&lt;/p&gt;
+&lt;h3 id=&#34;the-partial-group-homology&#34;&gt;The partial group homology&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;XXIV Coloquio Latinoamericano de Álgebra&lt;/strong&gt;, Santiago, Chile, July 22–26, 2024.&lt;/p&gt;
+&lt;h3 id=&#34;partial-group-actions-and-groupoids&#34;&gt;Partial group actions and groupoids&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;XXVII Brazilian Algebra Meeting&lt;/strong&gt;, São Paulo, Brazil, July 15–19, 2024.&lt;/p&gt;
+&lt;h2 id=&#34;selected-seminar-talks&#34;&gt;Selected seminar talks&lt;/h2&gt;
+&lt;h3 id=&#34;partial-group-actions-and-groupoids-1&#34;&gt;Partial group actions and groupoids&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Algebra Seminar&lt;/strong&gt;, Industrial University of Santander, Bucaramanga, Colombia, February 18, 2026.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
